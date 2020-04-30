@@ -12,7 +12,7 @@ public class LoginDemo {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://demo.guru99.com/v4");
-		
+		//Find WebElement InputBox "Name"
 		WebElement txtUserId=driver.findElement(By.xpath("//input[@name]"));
 		
 	}
